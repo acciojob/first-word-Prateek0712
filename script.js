@@ -3,7 +3,7 @@ function firstWord(s) {
 	s=s.trim();
 	let newStr="";
 	let i=0;
-	while(s[i]!=" ")
+	while(i<s.length && s[i]!=" ")
 		{
 			newStr+=s[i];
 			i++;
